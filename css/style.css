@@ -1,0 +1,106 @@
+.rez {
+    border-collapse: collapse;;
+    
+}
+.kr {
+    border-color: white;
+    background-color: red;
+    color: white;
+}
+.bl {
+    border-color: white;
+    background-color: blue;
+    color: white;
+}
+.gr {
+    border-color: white;
+    background-color: green;
+    color: white;
+}
+.right {
+    text-align: right;
+}
+.top {
+    padding-bottom: 150px;
+}
+.pad {
+    padding: 20px;
+}
+
+/* блок, элемент, модификатор */
+
+.table {}
+.table__head {}
+.table__tr {}
+.table__td {
+    padding: 20px;
+}
+.table__td--background-red {
+    background: red;
+}
+
+.shop {}
+.shop__product {}
+.shop__customer {}
+.shop__vitrina {}
+.shop__product--not {
+    background: gray;
+}
+
+td {
+    padding: 20px;
+}
+
+/* Селекторы тегов */
+p {}
+
+/* Селекторы идентификаторов */
+#id {}
+
+/* Селектор класса */
+.class {}
+
+/* Мультиселектор */
+tbody.pad {}
+
+/* Универсальный селектор */
+* {}
+
+/* Дочерний селектор */
+.test > td {}
+
+/* Соседний селектор */
+.q + td {}
+
+/* Родственный селектор */
+.q ~ td {}
+
+
+.kr, .bl, .gr {
+    color: white;
+    border-color: white;
+}
+
+.kr {
+    background-color: red;
+}
+
+.bl {
+    background-color: blue;
+}
+
+.gr {
+    background-color: green;
+}
+
+table .pad {
+    padding: 20px;
+}
+
+
+table td {}
+thead td, tfoot td {}
+
+.q ~ td {
+    background-color: pink;
+}
